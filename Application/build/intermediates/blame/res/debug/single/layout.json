@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    }
+]
