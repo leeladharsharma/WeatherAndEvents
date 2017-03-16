@@ -40,6 +40,7 @@ import android.widget.AdapterView;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.TextView;
+import android.content.Intent;
 import android.widget.Toast;
 
 public class MainActivity extends SampleActivityBase
@@ -106,6 +107,7 @@ public class MainActivity extends SampleActivityBase
 
         // Set up the 'clear text' button that clears the text in the autocomplete view
         Button clearButton = (Button) findViewById(R.id.button_clear);
+        //Button nextButton = (Button) findViewById(R.id.button_next);
         clearButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -113,6 +115,12 @@ public class MainActivity extends SampleActivityBase
                 mAutocompleteView1.setText("");
             }
         });
+    }
+
+    public void showMap(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+        startActivity(intent);
     }
 
     /**

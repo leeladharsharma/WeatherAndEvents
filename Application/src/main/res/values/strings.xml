@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright (C) 2015 Google Inc. All Rights Reserved.
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,8 +19,10 @@
     <string name="autocomplete_destination">Enter Destination</string>
     <string name="selected_place">Last Selected Place:</string>
     <string name="clear_text">Clear Text</string>
+    <string name="next_text">Next</string>
 
     <!-- getString(String, Object...) does not support HTML tags directly, they need to be encoded first.
     Original string: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
     <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

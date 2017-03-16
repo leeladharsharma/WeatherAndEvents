@@ -352,25 +352,27 @@ containing a value of this type.
         public static final int place_autocomplete_separator=0x7f08001a;
     }
     public static final class dimen {
-        public static final int cardview_compat_inset_shadow=0x7f060002;
-        public static final int cardview_default_elevation=0x7f060003;
-        public static final int cardview_default_radius=0x7f060004;
+        public static final int activity_horizontal_margin=0x7f060002;
+        public static final int activity_vertical_margin=0x7f060003;
+        public static final int cardview_compat_inset_shadow=0x7f060004;
+        public static final int cardview_default_elevation=0x7f060005;
+        public static final int cardview_default_radius=0x7f060006;
         public static final int horizontal_page_margin=0x7f060000;
-        public static final int margin_huge=0x7f060005;
-        public static final int margin_large=0x7f060006;
-        public static final int margin_medium=0x7f060007;
-        public static final int margin_small=0x7f060008;
-        public static final int margin_tiny=0x7f060009;
-        public static final int place_autocomplete_button_padding=0x7f06000a;
-        public static final int place_autocomplete_powered_by_google_height=0x7f06000b;
-        public static final int place_autocomplete_powered_by_google_start=0x7f06000c;
-        public static final int place_autocomplete_prediction_height=0x7f06000d;
-        public static final int place_autocomplete_prediction_horizontal_margin=0x7f06000e;
-        public static final int place_autocomplete_prediction_primary_text=0x7f06000f;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f060010;
-        public static final int place_autocomplete_progress_horizontal_margin=0x7f060011;
-        public static final int place_autocomplete_progress_size=0x7f060012;
-        public static final int place_autocomplete_separator_start=0x7f060013;
+        public static final int margin_huge=0x7f060007;
+        public static final int margin_large=0x7f060008;
+        public static final int margin_medium=0x7f060009;
+        public static final int margin_small=0x7f06000a;
+        public static final int margin_tiny=0x7f06000b;
+        public static final int place_autocomplete_button_padding=0x7f06000c;
+        public static final int place_autocomplete_powered_by_google_height=0x7f06000d;
+        public static final int place_autocomplete_powered_by_google_start=0x7f06000e;
+        public static final int place_autocomplete_prediction_height=0x7f06000f;
+        public static final int place_autocomplete_prediction_horizontal_margin=0x7f060010;
+        public static final int place_autocomplete_prediction_primary_text=0x7f060011;
+        public static final int place_autocomplete_prediction_secondary_text=0x7f060012;
+        public static final int place_autocomplete_progress_horizontal_margin=0x7f060013;
+        public static final int place_autocomplete_progress_size=0x7f060014;
+        public static final int place_autocomplete_separator_start=0x7f060015;
         public static final int vertical_page_margin=0x7f060001;
     }
     public static final class drawable {
@@ -428,23 +430,25 @@ containing a value of this type.
         public static final int auto=0x7f0a000a;
         public static final int autocomplete_places=0x7f0a000d;
         public static final int autocomplete_places1=0x7f0a000e;
-        public static final int button_clear=0x7f0a000f;
+        public static final int button_clear=0x7f0a0010;
+        public static final int button_next=0x7f0a000f;
         public static final int dark=0x7f0a000b;
         public static final int hybrid=0x7f0a0003;
         public static final int icon_only=0x7f0a0007;
         public static final int light=0x7f0a000c;
+        public static final int map=0x7f0a0013;
         public static final int none=0x7f0a0002;
         public static final int normal=0x7f0a0004;
-        public static final int place_attribution=0x7f0a0011;
-        public static final int place_autocomplete_clear_button=0x7f0a0014;
-        public static final int place_autocomplete_powered_by_google=0x7f0a0016;
-        public static final int place_autocomplete_prediction_primary_text=0x7f0a0018;
-        public static final int place_autocomplete_prediction_secondary_text=0x7f0a0019;
-        public static final int place_autocomplete_progress=0x7f0a0017;
-        public static final int place_autocomplete_search_button=0x7f0a0012;
-        public static final int place_autocomplete_search_input=0x7f0a0013;
-        public static final int place_autocomplete_separator=0x7f0a0015;
-        public static final int place_details=0x7f0a0010;
+        public static final int place_attribution=0x7f0a0012;
+        public static final int place_autocomplete_clear_button=0x7f0a0016;
+        public static final int place_autocomplete_powered_by_google=0x7f0a0018;
+        public static final int place_autocomplete_prediction_primary_text=0x7f0a001a;
+        public static final int place_autocomplete_prediction_secondary_text=0x7f0a001b;
+        public static final int place_autocomplete_progress=0x7f0a0019;
+        public static final int place_autocomplete_search_button=0x7f0a0014;
+        public static final int place_autocomplete_search_input=0x7f0a0015;
+        public static final int place_autocomplete_separator=0x7f0a0017;
+        public static final int place_details=0x7f0a0011;
         public static final int satellite=0x7f0a0005;
         public static final int standard=0x7f0a0008;
         public static final int terrain=0x7f0a0006;
@@ -455,10 +459,11 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int activity_main=0x7f040000;
-        public static final int place_autocomplete_fragment=0x7f040001;
-        public static final int place_autocomplete_item_powered_by_google=0x7f040002;
-        public static final int place_autocomplete_item_prediction=0x7f040003;
-        public static final int place_autocomplete_progress=0x7f040004;
+        public static final int activity_maps=0x7f040001;
+        public static final int place_autocomplete_fragment=0x7f040002;
+        public static final int place_autocomplete_item_powered_by_google=0x7f040003;
+        public static final int place_autocomplete_item_prediction=0x7f040004;
+        public static final int place_autocomplete_progress=0x7f040005;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -499,11 +504,14 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f05001a;
         public static final int common_signin_button_text=0x7f05001b;
         public static final int common_signin_button_text_long=0x7f05001c;
-        public static final int intro_message=0x7f050025;
+        public static final int google_maps_key=0x7f050025;
+        public static final int intro_message=0x7f050026;
+        public static final int next_text=0x7f050027;
         public static final int place_autocomplete_clear_button=0x7f05001d;
         public static final int place_autocomplete_search_hint=0x7f05001e;
-        public static final int place_details=0x7f050026;
-        public static final int selected_place=0x7f050027;
+        public static final int place_details=0x7f050028;
+        public static final int selected_place=0x7f050029;
+        public static final int title_activity_maps=0x7f05002a;
     }
     public static final class style {
         public static final int AppTheme=0x7f070002;

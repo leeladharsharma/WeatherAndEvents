@@ -31,6 +31,13 @@
             android:hint="@string/autocomplete_destination"
             android:singleLine="true" />
 
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showMap"
+            android:text="@string/next_text" />
 
 
         <Button
