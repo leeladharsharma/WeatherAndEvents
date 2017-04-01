@@ -119,7 +119,16 @@ public class MainActivity extends SampleActivityBase
 
     public void showMap(View view)
     {
+
         Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+        AutoCompleteTextView source = (AutoCompleteTextView) findViewById(R.id.autocomplete_places);
+        AutoCompleteTextView destination = (AutoCompleteTextView) findViewById(R.id.autocomplete_places1);
+        String getsource=source.getText().toString();
+        String getdest=destination.getText().toString();
+        Bundle bundle = new Bundle();
+        bundle.putString("source", getsource);
+        bundle.putString("dest", getdest);
+        intent.putExtras(bundle);
         startActivity(intent);
     }
 
