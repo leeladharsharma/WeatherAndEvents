@@ -107,7 +107,16 @@
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="place_details">&lt;b>%1$s&lt;/b>&lt;br/>&lt;i>Place Id: %2$s&lt;/i>&lt;br/>Address: %3$s&lt;br/>Phone: %4$s&lt;br/>Website: %5$s</string>
     <string name="selected_place">Last Selected Place:</string>
+    <string name="title_activity_events">EventsActivity</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="weather_clear_night"></string>
+    <string name="weather_cloudy"></string>
+    <string name="weather_drizzle"></string>
+    <string name="weather_foggy"></string>
+    <string name="weather_rainy"></string>
+    <string name="weather_snowy"></string>
+    <string name="weather_sunny"></string>
+    <string name="weather_thunder"></string>
     <style name="AppTheme" parent="Theme.Sample"/>
     <style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>

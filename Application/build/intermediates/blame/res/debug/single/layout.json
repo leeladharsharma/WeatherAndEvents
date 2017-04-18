@@ -8,6 +8,10 @@
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_weather_and_events.xml",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\layout\\activity_weather_and_events.xml"
+    },
+    {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
     },
@@ -22,5 +26,9 @@
     {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\layout\\list_item.xml"
     }
 ]

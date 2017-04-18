@@ -2,6 +2,7 @@ package com.example.google.playservices.placecomplete;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.location.Address;
 import android.location.Geocoder;
@@ -16,6 +17,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
@@ -30,12 +32,15 @@ import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarkerClickListener,OnMapReadyCallback {
 
     private GoogleMap mMap;
 
     private Context context;
     String lang;
+    String location1;
+    String location2;
+    JSONArray stepsArray;
 
     static String LANGUAGE_SPANISH = "es";
     static String LANGUAGE_ENGLISH = "en";
@@ -64,8 +69,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
         context = MapsActivity.this;
         Bundle bundle = getIntent().getExtras();
-        String location1 = bundle.getString("source");
-        String location2 = bundle.getString("dest");
+        location1 = bundle.getString("source");
+        location2 = bundle.getString("dest");
 
     /*
         // Add a marker in Sydney, Australia, and move the camera.
@@ -112,9 +117,56 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
        // pts.add(perth);
        // drawRoute(mMap,context,pts,LANGUAGE_ENGLISH,true);
 
+        mMap.setOnMarkerClickListener(this);
+
     }
 
-    public boolean drawRoute(GoogleMap map, Context c, ArrayList<LatLng> points, boolean withIndications, String language, boolean optimize)
+    @Override
+    public boolean onMarkerClick(final Marker marker) {
+        String name="";
+        int duration=0;
+        if(Geocoder.isPresent()) {
+            try {
+
+                Geocoder gc = new Geocoder(this);
+                List<Address> addresses = gc.getFromLocation(marker.getPosition().latitude, marker.getPosition().longitude, 1);
+                Address obj = addresses.get(0);
+                name = obj.getLocality();
+                LatLng clickedLatLng = new LatLng(marker.getPosition().latitude, marker.getPosition().longitude);
+            try {
+                for (int i = 0; i < stepsArray.length(); i++) {
+                    Step step = new Step(stepsArray.getJSONObject(i));
+                    String s[] = step.duration.split(" ");
+                    duration = duration + Integer.parseInt(s[0]);
+                    if(clickedLatLng.equals(step.location)){
+                        break;
+                    }
+
+                }
+            }
+            catch (JSONException e) {
+
+            }
+            } catch (IOException e) {
+                // handle the exception
+            }
+        }
+
+        String markerLat = String.valueOf(marker.getPosition().latitude);
+        String markerLng = String.valueOf(marker.getPosition().longitude);
+        String markerLatLng = markerLat+","+markerLng;
+
+        Intent intent = new Intent(MapsActivity.this, WeatherAndEventsActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putString("name", name);
+        bundle.putInt("duration",duration);
+        bundle.putString("markerLatLng", markerLatLng);
+        intent.putExtras(bundle);
+        startActivity(intent);
+        return false;
+    }
+
+        public boolean drawRoute(GoogleMap map, Context c, ArrayList<LatLng> points, boolean withIndications, String language, boolean optimize)
     {
         mMap = map;
         context = c;
@@ -144,13 +196,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if(points.size() == 2)
         {
             String url = makeURL(points.get(0).latitude,points.get(0).longitude,points.get(1).latitude,points.get(1).longitude,"driving");
-            new connectAsyncTask(url,false).execute();
+            new connectAsyncTask(url,true).execute();
             return true;
         }
         else if(points.size() > 2)
         {
             String url = makeURL(points,"driving",optimize);
-            new connectAsyncTask(url,false).execute();
+            new connectAsyncTask(url,true).execute();
             return true;
         }
 
@@ -379,8 +431,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         .color(Color.parseColor("#05b1fb")).geodesic(true));
 
             }
-            mMap.addMarker(new MarkerOptions().position(list.get(0)).title("Marker1"));
-            mMap.addMarker(new MarkerOptions().position(list.get(list.size()-1)).title("Marker2"));
+            mMap.addMarker(new MarkerOptions().position(list.get(0)).title(location1));
+            mMap.addMarker(new MarkerOptions().position(list.get(list.size()-1)).title(location2));
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(list.get(0),5));
 
 
@@ -388,10 +440,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             {
                 JSONArray arrayLegs = routes.getJSONArray("legs");
                 JSONObject legs = arrayLegs.getJSONObject(0);
-                JSONArray stepsArray = legs.getJSONArray("steps");
+                stepsArray = legs.getJSONArray("steps");
                 //put initial point
 
-                for(int i=0;i<stepsArray.length();i++)
+                for(int i=stepsArray.length()/10;i<stepsArray.length();i=i+(stepsArray.length()/10))
                 {
                     Step step = new Step(stepsArray.getJSONObject(i));
                     mMap.addMarker(new MarkerOptions()
@@ -401,6 +453,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
 
                 }
+
+                mMap.addMarker(new MarkerOptions().position(list.get(0)).title(location1));
+                mMap.addMarker(new MarkerOptions().position(list.get(list.size()-1)).title(location2));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(list.get(0),5));
 
             }
 
@@ -417,6 +473,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private class Step
     {
         public String distance;
+        public String duration;
         public LatLng location;
         public String instructions;
 
@@ -426,6 +483,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             try {
 
                 distance = stepJSON.getJSONObject("distance").getString("text");
+                duration = stepJSON.getJSONObject("duration").getString("text");
                 startLocation = stepJSON.getJSONObject("start_location");
                 location = new LatLng(startLocation.getDouble("lat"),startLocation.getDouble("lng"));
                 try {
