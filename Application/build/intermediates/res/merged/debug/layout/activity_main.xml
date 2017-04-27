@@ -1,68 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:paddingBottom="@dimen/vertical_page_margin"
-        android:paddingLeft="@dimen/horizontal_page_margin"
-        android:paddingRight="@dimen/horizontal_page_margin"
-        android:paddingTop="@dimen/vertical_page_margin">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:paddingBottom="@dimen/vertical_page_margin"
+    android:paddingLeft="@dimen/horizontal_page_margin"
+    android:paddingRight="@dimen/horizontal_page_margin"
+    android:paddingTop="@dimen/vertical_page_margin">
 
 
+    <pl.droidsonroids.gif.GifTextView
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:background="@drawable/weather1"
+        tools:layout_width="wrap_content" />
 
-        <AutoCompleteTextView
-            android:id="@+id/autocomplete_places"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:hint="@string/autocomplete_source"
-            android:singleLine="true" />
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_places"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:hint="@string/autocomplete_source"
+        android:textColorHint="#FFFFFF"
+        android:singleLine="true" />
 
-        <AutoCompleteTextView
-            android:id="@+id/autocomplete_places1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:hint="@string/autocomplete_destination"
-            android:singleLine="true" />
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_places1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:hint="@string/autocomplete_destination"
+        android:textColorHint="#FFFFFF"
+        android:singleLine="true" />
 
-        <Button
-            android:id="@+id/button_next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:onClick="showMap"
-            android:text="@string/next_text" />
-
-
-        <Button
-            android:id="@+id/button_clear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/clear_text" />
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="250dp"
+        android:background="#A9A9A9"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="showMap"
+        android:text="@string/next_text"
+        android:textColor="#FFFFFF"
+        />
 
 
-        <TextView
-            android:id="@+id/place_details"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:autoLink="all"
-            android:text=""
-            android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
-            android:id="@+id/place_attribution"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:autoLink="all"
-            android:text=""
-            android:paddingTop="@dimen/vertical_page_margin"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>

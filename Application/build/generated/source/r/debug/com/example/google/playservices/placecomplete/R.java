@@ -16,7 +16,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ambientEnabled=0x7f01001e;
+        public static final int ambientEnabled=0x7f010021;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -30,7 +30,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int buttonSize=0x7f01001f;
+        public static final int buttonSize=0x7f010022;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -38,7 +38,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraBearing=0x7f01000f;
+        public static final int cameraBearing=0x7f010012;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -46,7 +46,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTargetLat=0x7f010010;
+        public static final int cameraTargetLat=0x7f010013;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -54,7 +54,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTargetLng=0x7f010011;
+        public static final int cameraTargetLng=0x7f010014;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -62,7 +62,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTilt=0x7f010012;
+        public static final int cameraTilt=0x7f010015;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -70,7 +70,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraZoom=0x7f010013;
+        public static final int cameraZoom=0x7f010016;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -133,7 +133,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circleCrop=0x7f01000d;
+        public static final int circleCrop=0x7f010010;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be one of the following constant values.</p>
@@ -147,7 +147,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int colorScheme=0x7f010020;
+        public static final int colorScheme=0x7f010023;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -198,6 +198,19 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int contentPaddingTop=0x7f010009;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int freezesAnimation=0x7f01000d;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+         */
+        public static final int gifSource=0x7f01000b;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -205,7 +218,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int imageAspectRatio=0x7f01000c;
+        public static final int imageAspectRatio=0x7f01000f;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -217,7 +230,7 @@ containing a value of this type.
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int imageAspectRatioAdjust=0x7f01000b;
+        public static final int imageAspectRatioAdjust=0x7f01000e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -225,7 +238,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int liteMode=0x7f010014;
+        public static final int isOpaque=0x7f01000c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int liteMode=0x7f010017;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -239,12 +260,12 @@ containing a value of this type.
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int mapType=0x7f01000e;
+        public static final int mapType=0x7f010011;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
          */
-        public static final int scopeUris=0x7f010021;
+        public static final int scopeUris=0x7f010024;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -252,7 +273,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiCompass=0x7f010015;
+        public static final int uiCompass=0x7f010018;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -260,7 +281,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiMapToolbar=0x7f01001d;
+        public static final int uiMapToolbar=0x7f010020;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -268,7 +289,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiRotateGestures=0x7f010016;
+        public static final int uiRotateGestures=0x7f010019;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -276,7 +297,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiScrollGestures=0x7f010017;
+        public static final int uiScrollGestures=0x7f01001a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -284,7 +305,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiTiltGestures=0x7f010018;
+        public static final int uiTiltGestures=0x7f01001b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -292,7 +313,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiZoomControls=0x7f010019;
+        public static final int uiZoomControls=0x7f01001c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -300,7 +321,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiZoomGestures=0x7f01001a;
+        public static final int uiZoomGestures=0x7f01001d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -308,7 +329,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useViewLifecycle=0x7f01001b;
+        public static final int useViewLifecycle=0x7f01001e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -316,7 +337,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int zOrderOnTop=0x7f01001c;
+        public static final int zOrderOnTop=0x7f01001f;
     }
     public static final class color {
         public static final int cardview_dark_background=0x7f080000;
@@ -424,50 +445,60 @@ containing a value of this type.
         public static final int common_plus_signin_btn_text_light_focused=0x7f02002d;
         public static final int common_plus_signin_btn_text_light_normal=0x7f02002e;
         public static final int common_plus_signin_btn_text_light_pressed=0x7f02002f;
-        public static final int fog=0x7f020030;
-        public static final int london=0x7f020031;
-        public static final int losangeles=0x7f020032;
-        public static final int mountain=0x7f020033;
-        public static final int na=0x7f020034;
-        public static final int newyork=0x7f020035;
-        public static final int paris=0x7f020036;
-        public static final int partly_cloudy_day=0x7f020037;
-        public static final int partly_cloudy_night=0x7f020038;
-        public static final int pink=0x7f020039;
-        public static final int places_ic_clear=0x7f02003a;
-        public static final int places_ic_search=0x7f02003b;
-        public static final int powered_by_google_dark=0x7f02003c;
-        public static final int powered_by_google_light=0x7f02003d;
-        public static final int rain=0x7f02003e;
-        public static final int sleet=0x7f02003f;
-        public static final int snow=0x7f020040;
-        public static final int tile=0x7f020041;
-        public static final int tokyo=0x7f020042;
-        public static final int waves=0x7f020043;
-        public static final int wind=0x7f020044;
-        public static final int yellow_vintage=0x7f020045;
+        public static final int eventsimage2=0x7f020030;
+        public static final int eventsimage3=0x7f020031;
+        public static final int eventsmage=0x7f020032;
+        public static final int faded1=0x7f020033;
+        public static final int faded2=0x7f020034;
+        public static final int faded3=0x7f020035;
+        public static final int faded4=0x7f020036;
+        public static final int faded5=0x7f020037;
+        public static final int fog=0x7f020038;
+        public static final int london=0x7f020039;
+        public static final int losangeles=0x7f02003a;
+        public static final int mountain=0x7f02003b;
+        public static final int na=0x7f02003c;
+        public static final int newyork=0x7f02003d;
+        public static final int paris=0x7f02003e;
+        public static final int partly_cloudy_day=0x7f02003f;
+        public static final int partly_cloudy_night=0x7f020040;
+        public static final int pink=0x7f020041;
+        public static final int places_ic_clear=0x7f020042;
+        public static final int places_ic_search=0x7f020043;
+        public static final int powered_by_google_dark=0x7f020044;
+        public static final int powered_by_google_light=0x7f020045;
+        public static final int rain=0x7f020046;
+        public static final int sleet=0x7f020047;
+        public static final int snow=0x7f020048;
+        public static final int tile=0x7f020049;
+        public static final int tokyo=0x7f02004a;
+        public static final int waves=0x7f02004b;
+        public static final int weather1=0x7f02004c;
+        public static final int wind=0x7f02004d;
+        public static final int yellow_vintage=0x7f02004e;
     }
     public static final class id {
-        public static final int activity_weather_and_events=0x7f0a0014;
+        public static final int activity_weather_and_events=0x7f0a0011;
         public static final int adjust_height=0x7f0a0000;
         public static final int adjust_width=0x7f0a0001;
         public static final int auto=0x7f0a000a;
         public static final int autocomplete_places=0x7f0a000d;
         public static final int autocomplete_places1=0x7f0a000e;
-        public static final int bglayout=0x7f0a0015;
-        public static final int button_clear=0x7f0a0010;
+        public static final int bglayout=0x7f0a0012;
         public static final int button_next=0x7f0a000f;
-        public static final int city_field=0x7f0a0016;
-        public static final int current_temperature_field=0x7f0a0019;
+        public static final int city_field=0x7f0a0013;
+        public static final int current_temperature_field=0x7f0a0016;
         public static final int dark=0x7f0a000b;
-        public static final int eventList=0x7f0a001a;
+        public static final int eventLayoutText=0x7f0a0017;
+        public static final int eventList=0x7f0a0019;
+        public static final int eventText=0x7f0a0018;
         public static final int hybrid=0x7f0a0003;
+        public static final int icon=0x7f0a001a;
         public static final int icon_only=0x7f0a0007;
         public static final int light=0x7f0a000c;
-        public static final int map=0x7f0a0013;
+        public static final int map=0x7f0a0010;
         public static final int none=0x7f0a0002;
         public static final int normal=0x7f0a0004;
-        public static final int place_attribution=0x7f0a0012;
         public static final int place_autocomplete_clear_button=0x7f0a001f;
         public static final int place_autocomplete_powered_by_google=0x7f0a0021;
         public static final int place_autocomplete_prediction_primary_text=0x7f0a0023;
@@ -476,14 +507,13 @@ containing a value of this type.
         public static final int place_autocomplete_search_button=0x7f0a001d;
         public static final int place_autocomplete_search_input=0x7f0a001e;
         public static final int place_autocomplete_separator=0x7f0a0020;
-        public static final int place_details=0x7f0a0011;
         public static final int satellite=0x7f0a0005;
         public static final int standard=0x7f0a0008;
         public static final int terrain=0x7f0a0006;
-        public static final int text2=0x7f0a001c;
         public static final int txtitem=0x7f0a001b;
-        public static final int updated_field=0x7f0a0018;
-        public static final int weatherIconImageView=0x7f0a0017;
+        public static final int updated_field=0x7f0a0015;
+        public static final int venue=0x7f0a001c;
+        public static final int weatherIconImageView=0x7f0a0014;
         public static final int wide=0x7f0a0009;
     }
     public static final class integer {
@@ -561,11 +591,12 @@ containing a value of this type.
         public static final int CardView=0x7f070003;
         public static final int CardView_Dark=0x7f070004;
         public static final int CardView_Light=0x7f070005;
+        public static final int MyStyle=0x7f070006;
         public static final int Theme_Base=0x7f070001;
-        public static final int Theme_Sample=0x7f070006;
-        public static final int Widget=0x7f070007;
+        public static final int Theme_Sample=0x7f070007;
+        public static final int Widget=0x7f070008;
         public static final int Widget_SampleMessage=0x7f070000;
-        public static final int Widget_SampleMessageTile=0x7f070008;
+        public static final int Widget_SampleMessageTile=0x7f070009;
     }
     public static final class styleable {
         /** Attributes that can be used with a CardView.
@@ -774,6 +805,73 @@ containing a value of this type.
           @attr name com.example.google.playservices.placecomplete:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 9;
+        /** Attributes that can be used with a GifTextureView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GifTextureView_gifSource com.example.google.playservices.placecomplete:gifSource}</code></td><td></td></tr>
+           <tr><td><code>{@link #GifTextureView_isOpaque com.example.google.playservices.placecomplete:isOpaque}</code></td><td></td></tr>
+           </table>
+           @see #GifTextureView_gifSource
+           @see #GifTextureView_isOpaque
+         */
+        public static final int[] GifTextureView = {
+            0x7f01000b, 0x7f01000c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.google.playservices.placecomplete.R.attr#gifSource}
+          attribute's value can be found in the {@link #GifTextureView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+          @attr name com.example.google.playservices.placecomplete:gifSource
+        */
+        public static final int GifTextureView_gifSource = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.google.playservices.placecomplete.R.attr#isOpaque}
+          attribute's value can be found in the {@link #GifTextureView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.google.playservices.placecomplete:isOpaque
+        */
+        public static final int GifTextureView_isOpaque = 1;
+        /** Attributes that can be used with a GifView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GifView_freezesAnimation com.example.google.playservices.placecomplete:freezesAnimation}</code></td><td></td></tr>
+           </table>
+           @see #GifView_freezesAnimation
+         */
+        public static final int[] GifView = {
+            0x7f01000d
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.google.playservices.placecomplete.R.attr#freezesAnimation}
+          attribute's value can be found in the {@link #GifView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.google.playservices.placecomplete:freezesAnimation
+        */
+        public static final int GifView_freezesAnimation = 0;
         /** Attributes that can be used with a LoadingImageView.
            <p>Includes the following attributes:</p>
            <table>
@@ -789,7 +887,7 @@ containing a value of this type.
            @see #LoadingImageView_imageAspectRatioAdjust
          */
         public static final int[] LoadingImageView = {
-            0x7f01000b, 0x7f01000c, 0x7f01000d
+            0x7f01000e, 0x7f01000f, 0x7f010010
         };
         /**
           <p>This symbol is the offset where the {@link com.example.google.playservices.placecomplete.R.attr#circleCrop}
@@ -880,11 +978,11 @@ containing a value of this type.
            @see #MapAttrs_zOrderOnTop
          */
         public static final int[] MapAttrs = {
-            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
-            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
-            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
-            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
-            0x7f01001e
+            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
+            0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
+            0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c,
+            0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020,
+            0x7f010021
         };
         /**
           <p>This symbol is the offset where the {@link com.example.google.playservices.placecomplete.R.attr#ambientEnabled}
@@ -1145,7 +1243,7 @@ containing a value of this type.
            @see #SignInButton_scopeUris
          */
         public static final int[] SignInButton = {
-            0x7f01001f, 0x7f010020, 0x7f010021
+            0x7f010022, 0x7f010023, 0x7f010024
         };
         /**
           <p>This symbol is the offset where the {@link com.example.google.playservices.placecomplete.R.attr#buttonSize}

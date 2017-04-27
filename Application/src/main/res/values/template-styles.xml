@@ -39,4 +39,9 @@
         <item name="android:shadowRadius">2</item>
     </style>
 
+    <style name="MyStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@drawable/faded1</item>
+    </style>
+
 </resources>

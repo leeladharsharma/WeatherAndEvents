@@ -64,6 +64,10 @@
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
     },
     {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eventsimage3.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\eventsimage3.jpg"
+    },
+    {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\clear_day.png",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\clear_day.png"
     },
@@ -136,6 +140,10 @@
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\na.png"
     },
     {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eventsimage2.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\eventsimage2.jpg"
+    },
+    {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
@@ -146,6 +154,14 @@
     {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yellow_vintage.jpg",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\yellow_vintage.jpg"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\faded1.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\faded1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\faded4.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\faded4.jpg"
     },
     {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
@@ -162,6 +178,10 @@
     {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\newyork.jpg",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\newyork.jpg"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\faded3.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\faded3.jpg"
     },
     {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
@@ -212,6 +232,14 @@
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\clear_night.png"
     },
     {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather1.gif",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\weather1.gif"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\faded5.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\faded5.jpg"
+    },
+    {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fog.png",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\fog.png"
     },
@@ -224,12 +252,20 @@
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\faded2.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\faded2.jpg"
+    },
+    {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\partly_cloudy_night.png",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\partly_cloudy_night.png"
     },
     {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eventsmage.jpg",
+        "source": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\src\\main\\res\\drawable-hdpi\\eventsmage.jpg"
     },
     {
         "merged": "C:\\Users\\leeladhar\\Desktop\\placesAPI\\placesApi\\PlaceCompleteAdapter\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tokyo.jpg",

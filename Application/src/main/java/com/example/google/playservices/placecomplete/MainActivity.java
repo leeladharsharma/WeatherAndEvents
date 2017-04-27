@@ -105,16 +105,7 @@ public class MainActivity extends SampleActivityBase
 
         mAutocompleteView1.setAdapter(mAdapter);
 
-        // Set up the 'clear text' button that clears the text in the autocomplete view
-        Button clearButton = (Button) findViewById(R.id.button_clear);
-        //Button nextButton = (Button) findViewById(R.id.button_next);
-        clearButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mAutocompleteView.setText("");
-                mAutocompleteView1.setText("");
-            }
-        });
+
     }
 
     public void showMap(View view)
