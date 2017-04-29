@@ -3,6 +3,7 @@ package com.example.google.playservices.placecomplete;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
@@ -85,7 +86,7 @@ public class WeatherAndEventsActivity extends Activity {
         //setupNavBtn();
 
         //chooseCity(cityName);
-        LinearLayout rl = (LinearLayout) findViewById(R.id.bglayout);
+        /*LinearLayout rl = (LinearLayout) findViewById(R.id.bglayout);
         backgroundImageId =R.drawable.waves;
         rl.setBackgroundResource(backgroundImageId);
 
@@ -106,7 +107,11 @@ public class WeatherAndEventsActivity extends Activity {
         r3.getBackground().setAlpha(alphaAmount);
 
         TextView r4 = (TextView) findViewById(R.id.eventText);
-        r4.setLeft(10);
+        r4.setLeft(10);*/
+
+        LinearLayout rl = (LinearLayout) findViewById(R.id.activity_weather_and_events);
+        backgroundImageId =R.drawable.faded6;
+        rl.setBackgroundResource(backgroundImageId);
 
         //spacing issue
 
@@ -272,6 +277,8 @@ public class WeatherAndEventsActivity extends Activity {
 
             String customText = "<a href='"+urls.get(position)+"'>"+ titleList.get(position)+"</a>";
             myTitle.setText(Html.fromHtml(customText));
+
+            myTitle.setTextColor(Color.parseColor("#C04040"));
 
             String venueText = "venue : "+venueList.get(position)+"                Starts at "+ startList.get(position);
             venue.setText(venueText);
