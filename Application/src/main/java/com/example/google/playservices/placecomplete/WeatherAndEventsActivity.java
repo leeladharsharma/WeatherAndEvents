@@ -45,9 +45,9 @@ public class WeatherAndEventsActivity extends Activity {
     TextView detailsField;
     TextView currentTemperatureField;
     TextView weatherIcon;
-    int backgroundImageId = 0;
-    int backgroundImageId1 = 0;
-    int backgroundImageId2 = 0;
+    //int backgroundImageId = 0;
+    //int backgroundImageId1 = 0;
+    //int backgroundImageId2 = 0;
     int duration =0;
 
 
