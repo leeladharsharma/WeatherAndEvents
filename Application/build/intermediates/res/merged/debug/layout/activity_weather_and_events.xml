@@ -5,13 +5,14 @@
     android:id="@+id/activity_weather_and_events"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.google.playservices.placecomplete.WeatherAndEventsActivity">
+    tools:context="com.example.google.playservices.placecomplete.WeatherAndEventsActivity"
+    android:background="#000000">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.85"
+        android:layout_weight="0.69"
         android:id="@+id/bglayout"
         android:orientation="vertical"
         >
@@ -21,14 +22,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30sp"
-            android:textColor="#00C0C0"
+            android:textColor="#FFFFFF"
             android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
             android:src="@drawable/na"
             android:id="@+id/weatherIconImageView"
             android:layout_gravity="center_horizontal"
@@ -38,7 +39,7 @@
             android:id="@+id/updated_field"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#40C040"
+            android:textColor="#FFFFFF"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="16sp"
             android:layout_gravity="center_horizontal"/>
@@ -47,40 +48,35 @@
             android:id="@+id/current_temperature_field"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="25sp"
             android:textColor="#00C0C0"
             android:layout_gravity="center_horizontal"
             />
 
-
+        <!-- android:textColor="#C040FF" -->
 
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.15"
-        android:id="@+id/eventLayoutText"
+         <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.15"
+         android:id="@+id/eventLayoutText"
+         android:orientation="vertical"
+         >
 
-        android:orientation="vertical"
-        >
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Events"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:fontFamily="casual"
-            android:layout_marginLeft="8dp"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:textColor="#C0C040"
-            android:id="@+id/eventText"
-            android:layout_gravity="center"
-            />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Events"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:layout_marginLeft="8dp"
+             android:textSize="25sp"
+             android:textColor="#FFFFFF"
+             android:id="@+id/eventText"
+             android:layout_gravity="center"
+             />
 
     </LinearLayout>
 

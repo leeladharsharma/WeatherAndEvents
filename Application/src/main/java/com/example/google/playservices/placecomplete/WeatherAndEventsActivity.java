@@ -17,9 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -109,9 +107,9 @@ public class WeatherAndEventsActivity extends Activity {
         TextView r4 = (TextView) findViewById(R.id.eventText);
         r4.setLeft(10);*/
 
-        LinearLayout rl = (LinearLayout) findViewById(R.id.activity_weather_and_events);
-        backgroundImageId =R.drawable.faded6;
-        rl.setBackgroundResource(backgroundImageId);
+        //LinearLayout rl = (LinearLayout) findViewById(R.id.activity_weather_and_events);
+        //backgroundImageId =R.drawable.faded6;
+       // rl.setBackgroundResource(backgroundImageId);
 
         //spacing issue
 
@@ -223,7 +221,7 @@ public class WeatherAndEventsActivity extends Activity {
                     thumbList.add(thumbURL);
                 }else
                 {
-                    thumbList.add("http://s3.evcdn.com/images/thumb/I0-001/006/654/262-6.jpeg_/jacksonville-software-acrhitects-group-62.jpeg");
+                    thumbList.add("http://s4.evcdn.com/images/thumb/I0-001/034/708/275-3.jpeg_/shombit-sengupta-solo-art-exhibition-75.jpeg");
                 }
 
                 titleList.add(title);
@@ -269,7 +267,7 @@ public class WeatherAndEventsActivity extends Activity {
 
             View row = inflater.inflate(R.layout.list_item,parent,false);
             TextView myTitle = (TextView) row.findViewById(R.id.txtitem);
-            TextView venue = (TextView) row.findViewById(R.id.venue);
+            //TextView venue = (TextView) row.findViewById(R.id.venue);
             ImageView myImage = (ImageView) row.findViewById(R.id.icon);
 
             myTitle.setClickable(true);
@@ -281,7 +279,7 @@ public class WeatherAndEventsActivity extends Activity {
             myTitle.setTextColor(Color.parseColor("#C04040"));
 
             String venueText = "venue : "+venueList.get(position)+"                Starts at "+ startList.get(position);
-            venue.setText(venueText);
+            //venue.setText(venueText);
 
             ImageLoader imageLoader = ImageLoader.getInstance();
             myImage.setImageResource(android.R.color.transparent);

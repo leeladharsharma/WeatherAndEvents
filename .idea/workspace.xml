@@ -7,23 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be4922da-49ee-46ee-81a8-2ffc49b55d65" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_android_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_gif_drawable_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_location_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v13_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_8_4.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$drawable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$integer.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$layout.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/R$layout.class" />
@@ -34,10 +22,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/WeatherAndEventsActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/WeatherAndEventsActivity$MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/WeatherAndEventsActivity$connectAsyncTask.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/WeatherAndEventsActivity$connectAsyncTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/WeatherAndEventsActivity.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/google/playservices/placecomplete/WeatherAndEventsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/base/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/location/R$drawable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/location/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/maps/R$drawable.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/maps/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/location/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/location/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/google/android/gms/maps/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/debug_cad9b2d599d028dd4d65f93302280b47aae31ab0.jar" afterPath="$PROJECT_DIR$/Application/build/intermediates/pre-dexed/debug/debug_cad9b2d599d028dd4d65f93302280b47aae31ab0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
@@ -50,8 +38,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/google/android/gms/base/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/google/android/gms/base/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/google/android/gms/location/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/google/android/gms/location/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/google/android/gms/maps/R.java" afterPath="$PROJECT_DIR$/Application/build/generated/source/r/debug/com/google/android/gms/maps/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout/activity_weather_and_events.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout/activity_weather_and_events.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout/list_item.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/merged/debug/layout/list_item.xml" />
@@ -94,34 +80,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WeatherAndEventsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/WeatherAndEventsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="275" column="72" selection-start-line="275" selection-start-column="72" selection-end-line="275" selection-end-column="72" />
+            <state relative-caret-position="391">
+              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MainActivity.java">
+      <file leaf-file-name="MapsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MapsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="159" column="69" selection-start-line="159" selection-start-column="69" selection-end-line="159" selection-end-column="69" />
+              <caret line="441" column="61" selection-start-line="441" selection-start-column="61" selection-end-line="441" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/JSONParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -130,31 +113,8 @@
       <file leaf-file-name="activity_weather_and_events.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_weather_and_events.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/list_item.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="115">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -1804,7 +1764,6 @@
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/JSONParser.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/EventsActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/activity_events.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MapsActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/activity_weather.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/WeatherActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/res/values/template-styles.xml" />
@@ -1812,10 +1771,11 @@
         <option value="$PROJECT_DIR$/Application/build.gradle" />
         <option value="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/activity_weather_and_events.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/WeatherAndEventsActivity.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MapsActivity.java" />
       </list>
     </option>
   </component>
@@ -1850,6 +1810,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1952,11 +1913,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="placecomplete" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1992,19 +1957,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane />
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../weather_events_app" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="device.picker.selection" value="Nexus_5_API_23" />
+    <property name="device.picker.selection" value="Nexus_5X_API_24" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2330,7 +2294,7 @@
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19901316" sideWeight="0.53147876" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19901316" sideWeight="0.54612005" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2339,13 +2303,13 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28668943" sideWeight="0.7655068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.46998537" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.4670571" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19901316" sideWeight="0.46852124" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19901316" sideWeight="0.45387995" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2539,13 +2503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/JSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/PlaceAutocompleteAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -2605,10 +2562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="4172" column="22" selection-start-line="4172" selection-start-column="22" selection-end-line="4172" selection-end-column="22" />
-          <folding>
-            <element signature="e#149532#149533#0" expanded="false" />
-            <element signature="e#149574#149575#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2616,7 +2569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="4199" column="47" selection-start-line="4199" selection-start-column="47" selection-end-line="4199" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2631,16 +2583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MapsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/mipmap-mdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2650,7 +2592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2658,7 +2599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2666,7 +2606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="41" column="24" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2678,61 +2617,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="159" column="69" selection-start-line="159" selection-start-column="69" selection-end-line="159" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="e#1807#1826#0" expanded="true" />
-          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/list_item.xml">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="2040">
+          <caret line="159" column="69" selection-start-line="159" selection-start-column="69" selection-end-line="159" selection-end-column="69" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="457">
           <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/MapsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="441" column="61" selection-start-line="441" selection-start-column="61" selection-end-line="441" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/JSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_weather_and_events.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="35" />
+        <state relative-caret-position="115">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -2742,8 +2691,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/WeatherAndEventsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="275" column="72" selection-start-line="275" selection-start-column="72" selection-end-line="275" selection-end-column="72" />
+        <state relative-caret-position="391">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
           <folding />
         </state>
       </provider>

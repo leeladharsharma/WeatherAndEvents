@@ -23,17 +23,17 @@
             android:padding="8dp"
             android:id="@+id/txtitem"
             android:textColor="#C04040"
-            android:textSize="12sp"
+            android:textSize="16sp"
             />
 
-        <TextView
+       <!-- <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:id="@+id/venue"
             android:textColor="#FF8040"
-            android:textSize="10sp"
-            />
+            android:textSize="12sp"
+            /> -->
 
     </LinearLayout>
 </LinearLayout>
