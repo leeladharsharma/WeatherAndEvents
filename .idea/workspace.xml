@@ -6,9 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be4922da-49ee-46ee-81a8-2ffc49b55d65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/WeatherAndEventsActivity.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/google/playservices/placecomplete/WeatherAndEventsActivity.java" />
-    </list>
+    <list default="true" id="be4922da-49ee-46ee-81a8-2ffc49b55d65" name="Default" comment="" />
     <ignored path="PlaceCompleteAdapter.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
